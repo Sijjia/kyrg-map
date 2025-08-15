@@ -1,0 +1,30 @@
+.kmap-svg path {
+    fill: #022068;
+    stroke: white;
+    stroke-width: 0.5;
+    transition: fill 0.2s;
+}
+.kmap-svg path[data_bishkek="true"] {  // Изменено на data_bishkek
+    fill: #1e3a8a;
+}
+.kmap-svg path:hover {
+    fill: #CA9E67;
+}
+#stats {
+    color: white;
+}
+#map {
+    background: #f0f0f0;
+}
+.kmap-label {
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#ayyl-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.ayyl-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
